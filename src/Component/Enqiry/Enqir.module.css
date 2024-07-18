@@ -1,0 +1,110 @@
+.in{
+   
+    
+    height:2.5rem;
+    width:25rem;
+    resize: none;
+    padding:1rem;
+}
+.img {
+    width: 30rem;
+    height: 25rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    
+}
+.left{
+
+    width: 50rem;
+}
+
+
+
+.button{
+   border:5rem;
+    height:3rem;
+    width:9rem; 
+    color:navy;
+    font-family: Poppins;
+    font-size: 2rem;
+    background: rgb(236, 228, 228);
+    border: 5rem;
+    margin-bottom: 2rem;
+    
+
+
+}
+.button:hover{
+    background-color: goldenrod;
+    
+}
+
+::placeholder { 
+    color: rgb(7, 90, 255);
+    opacity: 1; 
+    text-align: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 1.3rem;
+  }
+
+
+
+  .a{
+    display: flex;
+  }
+
+  .b,.c{
+    width:100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+ @media screen and (max-width:768px) {
+
+.a{
+        flex-direction: column;
+        padding:3rem;
+      }
+
+
+
+    .in{
+   
+    
+        height:2.5rem;
+        width:15rem;
+        resize: none;
+        padding:1rem;
+    }
+    .img {
+        width: 20rem;
+        height: 20rem;
+        padding-top: 5rem;
+        padding-left: 0rem;
+        margin-left: -1rem;
+        
+    }
+    .left{
+    
+        width: auto;
+    }
+    
+    
+    
+    .button{
+       border:5rem;
+        height:3rem;
+        width:5rem; 
+        color:navy;
+        font-family: Poppins;
+        font-size: 1rem;
+        background: rgb(236, 228, 228);
+        border: 5rem;
+        margin-bottom: 2rem;
+        
+    
+    
+    }
+}
+

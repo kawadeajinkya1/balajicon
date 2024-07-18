@@ -1,0 +1,61 @@
+.qa{
+    height:20rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.634),rgba(22, 22, 22, 0.634)),url(./../Home/asset/build.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.p{
+   
+       
+    font-family: "Poppins";
+    color:whitesmoke;
+    font-weight:300;
+    font-size:0.9rem;
+    text-align: center;
+    letter-spacing: 0.08rem;
+   line-break: auto;
+   padding:2% 7%; 
+
+}
+
+.head{
+
+    font-family: "Poppins";
+    color:#fb6207;
+  background-color: white;
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 2rem;
+      width: 25% ;
+      border-radius: 2em;
+  
+  }
+  
+  
+  .heads{
+  
+    font-family: "Poppins";
+    color:#1f2a4b;
+
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 2rem;
+  
+  }
+
+  @media screen and (max-width:768px){
+    .qa{
+      height:auto;
+    }
+  }

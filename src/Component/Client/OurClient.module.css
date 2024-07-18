@@ -1,0 +1,104 @@
+.head{
+
+    font-family: 'Poppins';
+    color:goldenrod;
+    background-color: rgba(255, 255, 255, 0.914);
+    font-weight:bolder;
+      text-align: center;
+     
+      letter-spacing: 0.2rem;
+      font-size: 2rem;
+      margin:3rem;
+      
+  }
+  .hold{  
+    margin-top:10rem;  
+    background-image: linear-gradient(rgb(252, 252, 252),rgba(218, 209, 209, 0.849)),url(./../Home/asset/abc2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;}
+  
+  .heads{
+  
+    font-family: "Poppins";
+    color:navy;
+
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 2rem;
+  
+  }
+
+  .box{
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
+  
+  }
+
+  .jj{
+    margin:1rem;
+    padding:0.5rem;
+    font-family: 'Poppins';
+    justify-content: space-around;
+    border:1.5px solid goldenrod;
+    outline: 0.5px solid navy;
+    outline-offset: -5px;
+    text-align: center;
+    font-size: 1.2rem;
+text-transform: capitalize;
+background-color: rgba(255, 255, 255, 0.914);
+  
+}
+
+
+.ddd{
+  list-style-type:disc;
+  
+}
+
+
+
+  .row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: black;
+    font-style:italic;
+    gap: 5rem;
+  }
+  
+.eee{
+  list-style-type:disc;
+}
+
+
+@media screen and (max-width:768px)
+{
+
+  
+  .row{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: black;
+    font-style:italic;
+    gap: 0.5rem;
+    text-align: center;
+    margin-left: -4rem;
+  }
+
+  .eee{
+    list-style-type:none;
+  }
+  
+  
+  
+.ddd{
+  list-style-type:none;
+  
+}
+}

@@ -1,0 +1,12 @@
+
+  .rsl{
+    margin-top: 1rem;
+    background-image: linear-gradient(rgba(241, 228, 189, 0.287),rgba(240, 219, 219, 0.45)),url(./../Contact/book/IMG_0286.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -0.6rem;
+    overflow-x: hidden;
+  }
+
+

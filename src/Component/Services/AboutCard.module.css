@@ -1,0 +1,44 @@
+.card {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    width: 20rem;
+   ;
+    border-radius: 0.9rem;
+    box-shadow: 1px 1px 6px 1px rgb(0, 54, 201);
+}
+
+.customer {
+    margin: auto;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+}
+
+.head {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.txt {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-align: center;
+    height: 10rem;
+    font-family: 'Poppins';
+}
+.bnno{
+    
+   font-weight: bolder;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    bottom: 0;
+    cursor:pointer;
+}
+
+

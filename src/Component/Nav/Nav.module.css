@@ -1,0 +1,204 @@
+.container {
+
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 2rem;
+  left: 0%;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 1px 1px 2px black;
+  overflow-x: hidden;
+
+
+}
+
+.tea {
+  margin-top: -2rem;
+}
+
+
+
+.a {
+  display: flex;
+
+}
+
+.li {
+  text-decoration: none;
+  color: darkblue;
+  text-transform: uppercase;
+
+}
+
+.lit {
+  text-decoration: none;
+  color: rgb(255, 103, 1);
+  text-transform: uppercase;
+
+
+
+}
+
+.li:hover {
+  color: rgb(255, 103, 1);
+}
+
+.blinklist2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.blinklist {
+  font-family: "Poppins";
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 550;
+  font-size: 1.2rem;
+  gap: 1.5rem;
+  margin-right: 8rem;
+  margin-top: -0.5rem;
+
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+
+.nb {
+  color: navy;
+  font-size: 2.4rem;
+  font-weight: 750;
+  margin-left: -12rem;
+  
+}
+
+.nb1 {
+  color: navy;
+  font-size: 1rem;
+  font-weight: 600rem;
+  margin-top: -1.5rem;
+}
+
+.or {
+  color: orange;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: navy;
+  padding: 16px;
+  font-size: 1rem;
+  font-weight: 600rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 20rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+/* Links inside the dropdown */
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600rem;
+  text-align: left;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdownContent a:hover {
+  background-color: navy;
+  color: white;
+
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: goldenrod;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+
+@media screen and (max-width:768px) {
+  .container{
+    height:6rem;
+    overflow-x: hidden;
+  }
+
+
+.nb {
+  color: navy;
+  font-size: 1.3rem;
+  font-weight: 750;
+  margin-left: 2.5rem;
+  margin-top:2.2rem;
+}
+
+.img1 {
+  display: flex;
+  position:absolute;
+  justify-content: center;
+  margin-left:12rem;
+  height:5rem;
+  width: 5rem;;
+  margin-top: -2.5rem;
+}
+.blinklist {
+  font-family: "Poppins";
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 550;
+  font-size: 0.9rem;
+  gap: 1rem;
+  position:relative;
+  margin-left:7rem;
+  margin-top: -0.5rem;
+
+}
+
+
+}

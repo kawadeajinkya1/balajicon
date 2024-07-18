@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500;700;900&display=swap');
+
+.Cmain{
+    margin-top: 12rem;
+}
+.top{
+    margin-left: 0rem;
+}
+.image{
+    width: 100%;
+    height:35rem;
+}
+.flex{
+    display: flex;
+    margin-top: -33rem;
+    gap: 5rem;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+
+    
+    
+}
+.para1{
+    margin-top: 5rem;
+}
+.bg input{
+   
+    flex-direction: column;
+    height: 0.2rem;
+    width: 20rem;
+ 
+    padding: 1rem;
+   
+    
+}
+.bg{
+    background-color: rgb(54, 66, 66);
+    padding: 1rem;
+    margin-top: -2rem;
+}
+.btn{
+    height: 2rem;
+    width: 6rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: left;
+}
+.add{
+    display: flex;
+   
+    margin-top: 3rem;
+  
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 1rem;
+    
+}
+.visit {
+    text-align: center;
+    text-decoration: none;
+    
+   
+    
+}
+.micon{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top:3rem;
+}
+.picon{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top:3rem;
+}
+.h{
+    font-size: 1.5rem;
+}
+.hs{
+    font-size: 1.5rem;
+}
+.hss{
+    font-size: 1.5rem;
+}
+.vicon{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top:3rem;
+}
+.first a{
+    text-decoration: none;
+    color: black;
+}
+.second a{
+    text-decoration: none;
+    color: black;
+}
+.third a{
+    text-decoration: none;
+    color: black;
+}
+.map{
+    place-items: center;
+    height: 30rem;
+    width: 70%;
+    border:2px solid brown;
+    padding:1rem;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+
+}
+
+@media screen and (max-width:768px) {
+    .flex{
+        display: flex;
+        flex-direction: column;
+        margin-top: -33rem;
+        gap: 5rem;
+        justify-content: center;
+        color: white;
+        padding: 2rem;
+    
+        
+        
+    }
+
+    .bg input{
+   
+        flex-direction: column;
+        height: 0.2rem;
+        width: 12rem;
+     
+        padding: 1rem;
+       
+        
+    }
+
+    .bg textarea{
+   
+        width: 14rem;    
+    }
+
+    .add{
+        display: flex;
+       flex-direction: column;
+        margin-top: 3rem;
+      
+        justify-content: space-around;
+        text-align: center;
+        font-family: 'Poppins';
+        font-weight: bolder;
+        padding:1rem;
+        
+    }
+    .visit {
+        text-align: center;
+        text-decoration: none;
+       
+        
+    }
+    .map{
+        place-items: center;
+        height: 15rem;
+        width: 80%;
+        border:2px solid brown;
+        padding:1rem;
+    }
+    
+}

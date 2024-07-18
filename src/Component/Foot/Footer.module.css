@@ -1,0 +1,153 @@
+.container {
+    padding: 3rem;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.hold {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.rightlogo {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+
+
+.middlelist {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+
+.li {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: -1.5rem;
+    margin-bottom: .5rem;
+
+}
+
+.mailHold {
+    margin-bottom: .5rem;
+}
+
+.lii {
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+    margin-left: -1.4rem;
+
+}
+
+
+
+.middle {
+    width: 30%;
+}
+
+
+.leftImg {
+    width: 5rem;
+    height: 5rem;
+
+    margin-top: -1.5rem;
+}
+
+
+.right {
+    width: 50%;
+    text-align: center;
+
+}
+
+.ab {
+    color: black;
+    text-decoration: none;
+}
+
+.iconHo {
+    height: 2rem;
+    width: 2rem;
+}
+
+.img {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.copyHold {
+    text-align: center;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.line {
+    color: orange;
+    height: 2px;
+    width: 75%;
+    background: linear-gradient(to right, white 50%, red 10%);
+    /* Change the gradient colors as needed */
+    background-size: 200% 200%;
+    animation: a1 4s reverse infinite;
+    /* Adjust the duration (5s) as needed */
+
+    border-radius: 2rem;
+}
+
+@keyframes a1 {
+    0% {
+        background-position: left top;
+    }
+
+    100% {
+        background-position: bottom right;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .hold {
+        display: flex;
+        flex-direction: column;
+    }  
+    .left {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .middle {
+        width: 100%;
+    }
+    
+    .right {
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    
+}

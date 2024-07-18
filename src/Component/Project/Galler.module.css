@@ -1,0 +1,141 @@
+.qa{
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    padding:1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.455),rgba(0, 0, 0, 0.437)),url(./../Home/asset/build.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 12rem;
+}
+.head2{
+font-family: "Poppins";
+    color:white;
+    font-weight:bold;
+    font-size:1.1rem;
+
+}
+
+.headkk{
+  margin-top:-2rem;
+}
+.aq{
+ 
+    justify-content: center;
+    width: 85%;
+}
+
+.p{
+   
+       
+    font-family: "Poppins";
+    color:#1f2a4b;
+    font-weight:300;
+    font-size:1rem;
+    text-align: center;
+    letter-spacing: 0.08rem;
+   line-break: auto;
+   padding:2% 7%; 
+
+}
+
+
+
+.head{
+
+    font-family: "Poppins";
+    color:goldenrod;
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 3rem;
+      border-color: aliceblue;
+      background-color: none;
+  
+  }
+  
+  
+  .heads{
+  
+    font-family: "Poppins";
+    color:navy;
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 3rem;
+  
+  }
+
+
+  .row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:1rem;
+  }
+
+
+  .col{
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+place-items: center;
+padding:0.1rem;
+width: 30%;
+height:18rem;
+background-color: rgba(255, 255, 255, 0.914);
+
+
+}
+
+.col:hover{
+  transition: transform 1s;
+   transform: scale(1.08);
+}
+
+
+.mg{
+    width: 92%;
+    height:15rem;
+
+}
+
+  
+
+@media screen and (max-width:768px)
+{
+
+
+  .col{
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+place-items: center;
+gap:1rem;
+width: 100vw;
+height:auto;
+background-color: rgba(255, 255, 255, 0.914);
+
+
+}
+
+.row{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:2rem;
+}
+
+
+.mg{
+  width: 100%;
+  height:15rem;
+
+}
+
+
+}

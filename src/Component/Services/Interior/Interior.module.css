@@ -1,0 +1,115 @@
+.hold {
+    margin-top: 29rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.head {
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.why {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.leftHead {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.left {
+    background-color: rgb(223, 204, 156);
+    width: 40rem;
+
+    text-align: center;
+    padding: 3rem;
+
+    font-size: 0.9rem;
+}
+
+.L1 {
+    color: rgb(0, 0, 0);
+    font-weight:100px;
+}
+
+.right {
+    width: 40rem;
+
+}
+
+.middle {
+    width: 8rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8.8rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.txt {
+    margin-left: 3rem;
+}
+
+.innerHold {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width:768px) {
+
+
+    .hold {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        padding:0rem;
+        overflow-x: hidden;
+    }
+
+    .left {
+        background-color: rgb(223, 204, 156);
+        width: 100%;
+        margin-left: 0rem;
+
+        text-align: center;
+        padding: 1rem;
+
+        font-size: 1rem;
+    }
+
+    .right {
+        width:auto;
+       padding: 2rem;
+
+
+    }
+    .L1 p{
+        padding:1.2rem;
+        margin-left: -2rem;
+    }
+
+    .icon {
+        width: 2rem;
+        height: 2rem;
+       place-items: center;
+    }
+}

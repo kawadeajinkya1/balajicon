@@ -1,0 +1,31 @@
+.slider{
+    overflow-x: hidden;
+width:100vw;
+z-index: -1;
+   margin-top: 8rem;;
+}
+
+.sli{
+ height:65rem;
+    width:100vw;
+}
+
+
+@media screen and (max-width:768px)
+{
+.slider{
+    height:50vh;
+    width:100vw;
+}
+    .sli{
+        
+        height:50vh;
+        width:100vw;
+    }  
+
+    .ak{
+        overflow: hidden;
+        overflow-wrap: normal;
+    }
+    
+}

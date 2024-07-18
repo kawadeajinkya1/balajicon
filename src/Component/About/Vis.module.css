@@ -1,0 +1,120 @@
+.contain {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-bottom: 5rem;
+    margin-top: -0.1rem;
+}
+
+.hold {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.holds{
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-bottom: -13rem;
+    margin-top: -0.1rem;
+
+}
+.isoHOLD{
+    width:100rem;
+    justify-content: center;
+}
+.profile{
+
+    font-size:2rem;
+    font-weight:bolder ;
+    font-family: 'Poppins';
+    text-align: center;
+    color: navy;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-top: -0.05rem;
+    margin-bottom: 1rem;
+}
+.head {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-top: -0.05rem;
+    margin-bottom: 1rem;
+}
+.line {
+    margin-bottom: 4rem;
+}
+
+
+.cardHead {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.card {
+    width: 35rem;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgb(244, 245, 255));
+    box-shadow: 1px 1px 5px 1px rgb(211, 211, 211);
+    border: 1px solid goldenrod;
+    color: navy;
+    text-align: center;
+    border-radius: 0.4rem;
+}
+
+.cardtxt {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    color: black;
+    margin-top: -2rem;
+}
+
+.icon {
+    margin-right: 0.2rem;
+    margin-top: -1rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+    .hold {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .card {
+        width:auto;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgb(244, 245, 255));
+        box-shadow: 1px 1px 5px 1px rgb(211, 211, 211);
+        border: 1px solid goldenrod;
+        color: navy;
+        text-align: center;
+        border-radius: 0.4rem;
+        margin-left:0rem
+    }
+
+    .isoHold{
+        display:none;
+    }
+    .btn{
+        display: block;
+        text-decoration: none;
+    }
+    
+}

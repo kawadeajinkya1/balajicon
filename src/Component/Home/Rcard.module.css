@@ -1,0 +1,70 @@
+
+.contain {
+    padding: 2rem;
+    
+  
+  }
+  
+  .card{
+  background-color: white;
+  width: 25rem;
+  display: relative; 
+  text-align: center;
+  margin-top:2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  height:19.5rem;
+  }
+  .txt{
+    padding: 1rem;
+  }
+  
+  .name{
+  
+  font-family: "Poppins";
+  color:#1f2a4b;
+  font-weight:300;
+  font-size:0.8rem;
+  text-align: center;
+  letter-spacing: 0.08rem;
+  line-break: auto;
+  }
+  
+  .review{
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing:border-box;
+    border-style: none solid;
+   
+  font-family: "Poppins";
+  color:#1f2a4b;
+  font-weight:300;
+  font-size:0.9rem;
+  text-align: center;
+  letter-spacing: 0.08rem;
+  line-break: auto;
+  }
+  
+  
+  
+  
+  .imgg{
+  height: 80px;
+  width:70px;
+  border-radius: 50%;
+  margin-top: -5rem;
+  border: solid;
+  justify-content: center;
+  }
+  
+  
+  .stars{
+    color:gold;
+  }
+
+  @media screen and (max-width:768px){
+    .card{
+      height: auto;
+      width: auto;
+    }
+  }

@@ -1,0 +1,24 @@
+.head {
+    font-family: 'Ubuntu';
+  justify-content: center;
+    text-align:center;
+    font-weight: 600; 
+    font-size: 1.5rem;
+    font-family:"Poppins";
+    color:rgb(240, 106, 17);
+
+}
+.hold h1{
+  font-size: 2rem;
+  font-family:"Poppins";
+}
+.my{
+    width: 18%;
+    margin-top: -2rem;
+    border: 1PX solid blue;
+}
+
+.hold{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

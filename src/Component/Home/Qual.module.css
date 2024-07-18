@@ -1,0 +1,99 @@
+.qa{
+    height:35rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-top: 3rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(./asset/solar.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+.aq{
+ 
+    height:30rem;
+    justify-content: center;
+border-style: double;
+    border-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.914);
+ width: 80%;
+
+}
+
+.p{
+   
+       
+    font-family:  "Poppins";
+    color:#1f2a4b;
+    font-weight:300;
+    font-size:1rem;
+    text-align: justify;
+    letter-spacing: 0.08rem;
+   line-break: auto;
+   padding:2% 7%; 
+
+}
+
+.head{
+
+    font-family: "Poppins";
+    color:#fb6207;
+  
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 2rem;
+  
+  }
+  
+  
+  .heads{
+  
+    font-family: "Poppins";
+    color:#1f2a4b;
+  
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 2rem;
+  
+  }
+
+
+  .ddd{
+    list-style-type:disc;
+  }
+ 
+
+  @media screen and (max-width:768px) {
+    
+    .qa{
+      height:auto;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+     margin-top: 3rem;
+      background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(./asset/solar.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+  }
+
+
+    .aq{
+ 
+      height:auto;
+      width:auto;
+      justify-content: center;
+  border-style: double;
+      border-color: aliceblue;
+      background-color: rgba(255, 255, 255, 0.914);
+   
+  
+  }
+  }

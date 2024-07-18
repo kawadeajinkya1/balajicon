@@ -1,0 +1,54 @@
+.hold {
+    margin-top: 8rem;
+padding:0rem;
+box-shadow: 2px 2px 2px  1px rgb(46, 65, 71);
+
+}
+
+.headhold {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: navy;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+
+
+.successImg {
+    width: 35rem;
+    height: 35rem;
+}
+
+
+    .head{
+        font-size: 70%;
+ 
+    }
+    
+    .contentHold {
+        flex-direction: row;
+    }
+
+    .imgHold{
+background-size:contain;
+background-position: center;
+background-repeat: no-repeat;
+background-image: url(./../Foot/sign/take.jpeg);
+
+height:20rem;
+    }
+
+
+    @media screen and(max-width:768px) {
+        .head{
+
+            text-align: center;
+            font-size: 40%;
+ 
+        }
+        
+    }

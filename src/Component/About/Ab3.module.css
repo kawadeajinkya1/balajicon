@@ -1,0 +1,161 @@
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top:2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.455),rgba(0, 0, 0, 0.437));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+   margin-top: 1rem;
+   margin-left: 1rem;
+    background-color: rgba(255, 255, 255, 0.914);
+    
+}
+
+.leftp{
+   
+    font-family: "Poppins";
+    color:black;
+    font-weight:500;
+    font-size:0.9rem;
+    text-align: justify;
+    letter-spacing: 0.08rem;
+   line-break: auto;
+   margin-left:1rem;
+   padding:2rem;
+
+
+
+}
+
+
+
+
+
+.right {
+    flex: 1;
+    text-align: center;
+    margin-top: 2rem;
+    
+    
+}
+
+
+.ri {
+ width:25rem;
+    height: 22rem;
+    display: block;
+    margin: auto;
+    background-color: rgb(247, 248, 248);
+    margin-bottom: 4rem;
+}
+
+.hy{
+    display: flex;
+}
+.san{
+    font-family: Poppins;
+    font-weight: bold;
+    color: black;
+    margin-top: -2rem;
+}
+.fo{
+    margin-top: -2rem;
+}
+
+.heading{
+
+    font-family: "Poppins";
+    color:goldenrod;
+    font-weight:bolder;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    margin-left:1rem;
+  
+  }
+  
+  
+  .heads{
+  
+    font-family: "Poppins";
+    color:navy;
+
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-size: 2rem;
+  
+  }
+
+  .fo{
+    margin-top: -2.5rem;
+  }
+
+  @media screen and (max-width:768px)
+  {
+
+    .container {
+        max-width: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-top:2rem;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.455),rgba(0, 0, 0, 0.437));
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+      
+    }
+
+    
+.hy{
+    display: flex;
+    flex-direction: column;
+ }
+
+.left {
+    flex: 1;
+    text-align: center;
+   margin-top: 1rem;
+   margin-left: 0rem;
+    background-color: rgba(255, 255, 255, 0.914);
+    
+}
+.heading{
+
+    font-family: "Poppins";
+    color:goldenrod;
+    font-weight:bolder;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    margin-left:0rem;
+  
+  }
+  .ri {
+    width:20rem;
+       height: 22rem;
+       display: block;
+       margin: auto;
+       background-color: rgb(247, 248, 248);
+       margin-bottom: 4rem;
+   }
+
+
+  }

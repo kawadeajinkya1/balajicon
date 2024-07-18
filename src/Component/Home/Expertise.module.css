@@ -1,0 +1,37 @@
+.head {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(8, 10, 9)
+}
+
+.head2 {
+    margin-top: -1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: navy;
+    padding: 2rem;
+}
+
+.cardhold {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+  
+    .hold {
+        margin-top: 8rem;
+       
+    }
+    .f{
+        text-decoration: none;
+    }
